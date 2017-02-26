@@ -4,16 +4,18 @@
 #include "Couple.h"
 using namespace std;
 
-
-//The find_compatibility() function calculates the comaptibility of a particular couple by using the formula as given.
+//!< This is the header file for the Couple class. It defines it's various attributes  like happiness , compatible and various helper functions like finding kth most happy couple and kth most compatible couple 
 void Couple::find_compatibility()
 {
+	//!The find_compatibility() function calculates the comaptibility of a particular couple by using the formula as given.
+
 	compatibility = (boy.budget - girl.maintainance_budget) + abs(boy.attractiveness - girl.attractiveness) + abs(girl.intelligence_level - boy.intelligence_level);
 }
 
-//The k_happy function accepts an array of couples and the value entered by the user,k
 void Couple:: k_happy(Couple *couples,int n, int k)
 {
+	//!The k_happy function accepts an array of couples and the value entered by the user,k
+
 	cout<<"\nThe "<<k<<" most happy couples with their happiness are \n\n";
 	int done[200] = {0};
 	int maxHappyIndex = 0,i,j; //The function finds out the k-happiest couples and then prints them in order.
@@ -40,12 +42,12 @@ void Couple:: k_happy(Couple *couples,int n, int k)
 	}
 }
 
-//The k_compatible function accepts an array of couples and the value entered by the user,k
+//!The k_compatible function accepts an array of couples and the value entered by the user,k
 void Couple::k_compatible(Couple *couples, int n, int k)
 {
 	cout<<"\nThe "<<k<<" most compatible couples with their compatibility are \n\n";
 	int done[200] = {0};
-	int  maxCompatibleIndex = 0,i,j; //The function finds out the k most compatible couples and then prints them in order.
+	int  maxCompatibleIndex = 0,i,j; //!The function finds out the k most compatible couples and then prints them in order.
 	for(i=0;i<k;i++)
 	{
 		for(j=0;j<n;j++)

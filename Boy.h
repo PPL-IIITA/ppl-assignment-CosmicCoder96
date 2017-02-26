@@ -5,6 +5,7 @@
 #define GENEROUS 1
 #define GEEK 2
 #include "Girl.h"
+
 class Boy{
 public:
 	char name[MAX_NAME_LENGTH];

@@ -27,8 +27,8 @@ g++ generate-boys.cpp -o data-boys
 ```
 >To run question 1
 ```
-g++ 1.cpp Couple.cpp MakeCouples.cpp Boy.cpp Girl.cpp
-./a.out
+g++ 1.cpp Couple.cpp MakeCouples.cpp Boy.cpp Girl.cpp -o q1
+./q1
 ```
 >The generated couples will be stored in List_of_Couples.txt
   
@@ -47,17 +47,18 @@ g++ generate-gifts.cpp -o data-gifts
 ```
 >To run Querstion 2
 ```
-g++ 2.cpp Couple.cpp MakeCouples.cpp Boy.cpp Girl.cpp
+g++ 2.cpp Couple.cpp MakeCouples.cpp Boy.cpp Girl.cpp -o q2
+./q2
 ```
 
 ## Logging details
-> ###General text files (Get recreated when the questions are run)
+###General text files (Get recreated when the questions are run)
   * List of randomly generated boys : List_of_boys.txt
   * List of randomly generated girls : List_of_Girls.txt
   * List of randomly generated gifts : List_of_Gifts.cpp
   * List of generated couples : List_of_Gifts.txt
   * List of gifts given : List_of_Gifts_Given.txt
- >###Logging (Log file is permanent and maintains logs of all the executions)
+
+###Logging (Log file is permanent and maintains logs of all the executions)
  >It Maintains all the transactions which take place and logs them with timestamp. 
- 
-  **General Log** : Log.txt
+ **General Log** : Log.txt

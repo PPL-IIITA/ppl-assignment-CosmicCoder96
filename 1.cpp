@@ -8,8 +8,8 @@
 using namespace std;
 int main ()
 { 
-	//MakeCouples class comprises of primary functions which makes use of Boy Girl and Gift classes to solve the questions.
+	//!< MakeCouples class comprises of primary functions which makes use of Boy Girl and Gift classes to solve the questions.
 	MakeCouples generator;
-	generator.generateCouples();//generateCouples solves the first question.
+	generator.generateCouples();//!< generateCouples solves the first question.
 
 }

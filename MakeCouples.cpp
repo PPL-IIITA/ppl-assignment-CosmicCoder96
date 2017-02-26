@@ -11,11 +11,10 @@
 #define MOST_RICH 1
 #define MOST_INTELLIGENT 2
 using namespace std;
-/*This is the class primarily responsible for the functioning of the program and makes use of Boy, Girl, Couple
- and Gift classes to solve problems. */
+//!< This is the class primarily responsible for the functioning of the program and makes use of Boy, Girl, Couple and Gift classes to solve problems. 
 
 
-//generateCouples() function is responsible for generating various random couples and store them in a specified text file.
+//!< generateCouples() function is responsible for generating various random couples and store them in a specified text file.
 void MakeCouples::generateCouples()
 {
 /* Generating couples requires the function to read from the list of boys and girls from their respective files and then 
@@ -25,7 +24,7 @@ bool committed_flag = false;
 Boy boys[NO_OF_BOYS];
 Girl girls[NO_OF_GIRLS];
 Couple couples[NO_OF_GIRLS];
-// The file List_of_Boys.txt contains the list of randomly generated boys which is read and stored in the array.
+//!<  The file List_of_Boys.txt contains the list of randomly generated boys which is read and stored in the array.
 ifstream read_boys_list  ("List_of_boys.txt");
 if (read_boys_list.is_open())
 {
@@ -38,7 +37,7 @@ if (read_boys_list.is_open())
 }
 i=0;
 
-// The file List_of_Girls.txt contains the list of randomly generated girls which is read and stored in the array.
+//!<  The file List_of_Girls.txt contains the list of randomly generated girls which is read and stored in the array.
 ifstream read_girls_list ("List_of_Girls.txt");
 
 if (read_girls_list.is_open())
@@ -102,8 +101,8 @@ for(i=0;i<NO_OF_GIRLS;i++)
 }
 
 ofstream couples_list("List_of_Couples.txt");
-//The Log.txt file maintains the log of all the events and transactions that take place including forming and break up of couples and gift transactions.
-//It is a static file and maintains an over all log.
+//!< The Log.txt file maintains the log of all the events and transactions that take place including forming and break up of couples and gift transactions.
+//!< It is a static file and maintains an over all log.
 ofstream log_file("Log.txt", std::fstream::in | std::fstream::out | std::fstream::app);
 time_t Now = time(0);
 char * ct = ctime(&Now);
@@ -116,7 +115,7 @@ couples_list.close();
 log_file.close();
 }
 
-//This function facilitates the transaction of various gifts which the boys in the couple gift to their girlfriends.
+//!< This function facilitates the transaction of various gifts which the boys in the couple gift to their girlfriends.
 void MakeCouples::giveGifts()
 {
 	int i=0,j,couple_count, minGiftIndex=0,moneySpent = 0,moneyLeft,maxGiftIndex=0;
@@ -124,16 +123,16 @@ void MakeCouples::giveGifts()
 	Couple  couples[100];
 
 	Gift gifts[200];
-	//Couple list file is opened to accumulate all the couples in an array.
+	//!< Couple list file is opened to accumulate all the couples in an array.
 	ifstream couples_file ("List_of_Couples.txt");
 	if(couples_file.is_open())
 	{
 		while(couples_file>> couples[i].boy.name>>couples[i].boy.attractiveness>>couples[i].boy.budget>>couples[i].boy.intelligence_level>>couples[i].boy.min_attraction_requirement>>couples[i].boy.type>>couples[i].boy.committed>>couples[i].girl.name>>couples[i].girl.attractiveness>>couples[i].girl.maintainance_budget>>couples[i].girl.intelligence_level>>couples[i].girl.criterion>>couples[i].girl.type>>couples[i].girl.committed)
 		{
-					// cout<< "Hello2";
+				
 
 			
-			// cout<<couples[i].boy.name<<" "<<couples[i].boy.attractiveness<<" "<<couples[i].boy.budget<<" "<<couples[i].boy.intelligence_level<<" "<<couples[i].boy.min_attraction_requirement<<" "<<couples[i].boy.type<<" "<<couples[i].boy.committed<<" "<<couples[i].girl.name<<" "<<couples[i].girl.attractiveness<<" "<<couples[i].girl.maintainance_budget<<" "<<couples[i].girl.intelligence_level<<" "<<couples[i].girl.criterion<<" "<<couples[i].girl.type<<" "<<couples[i].girl.committed<<endl;
+			
 			i++;
 		}
 		couple_count = i;
@@ -142,13 +141,13 @@ void MakeCouples::giveGifts()
 	couples_file.close();
 	}
 	i =0;
-	//List of gifts file is opened to accumulate all the gifts in an array
+	//!< List of gifts file is opened to accumulate all the gifts in an array
 	ifstream gifts_file ("List_of_Gifts.txt");
 	if(gifts_file.is_open())
 	{
 		while(gifts_file >> gifts[i].price>>gifts[i].value>>gifts[i].type>>gifts[i].luxury_rating>>gifts[i].difficulty>>gifts[i].utility_value>>gifts[i].utility_class>>gifts[i].used)
 		{
-			// cout << gifts[i].price<<" "<<gifts[i].value<<" "<<gifts[i].type<<" "<<gifts[i].luxury_rating<<" "<<gifts[i].difficulty<<" "<<gifts[i].utility_value<<" "<<gifts[i].utility_class<<" "<<gifts[i].used<<endl;
+		
 			i++;
 		}
 	}
@@ -156,7 +155,7 @@ void MakeCouples::giveGifts()
 	int total_value[200] = {0};
 	ofstream gift_transaction ("List_of_Gifts_Given.txt");
 	ofstream log_file("Log.txt", std::fstream::in | std::fstream::out | std::fstream::app);
-	//suitable gifts are given by boys to the girls satisfying the restraints set upon by the boy type and 
+	//!< suitable gifts are given by boys to the girls satisfying the restraints set upon by the boy type and 
 	for(i=0;i<couple_count;i++)
 	{
 		cout <<"\n\n";
@@ -273,7 +272,7 @@ void MakeCouples::giveGifts()
 	cout<< "Enter the value of K\n";
 	cin >> k;
 	if(k<=couple_count){
-	//These helper functions help in calculating the k most happy and k most compatible couples
+	//!< These helper functions help in calculating the k most happy and k most compatible couples
 	Couple::k_happy(couples,couple_count,k);	
 	Couple::k_compatible(couples,couple_count,k);
 	}

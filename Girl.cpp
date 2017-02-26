@@ -6,13 +6,12 @@
 #define DESPERATE 2
 using namespace std;
 
-//The function getHappiness in the Girl class is used to calculate the happiness of a girl with total gift cost and total gift_value as parameters.
+//!< The function getHappiness in the Girl class is used to calculate the happiness of a girl with total gift cost and total gift_value as parameters.
 void Girl::getHappiness(int total_gifts, int total_gift_value)
 {
-	if(type == CHOOSY) //These if else conditions ensure that happiness of the girls is calculated based on the type of girl i.e. CHOOSY, NORMAL or DESPERATE
+	if(type == CHOOSY) //!< These if else conditions ensure that happiness of the girls is calculated based on the type of girl i.e. CHOOSY, NORMAL or DESPERATE
 	{
 	     happiness = log(abs(total_gifts - maintainance_budget));
-		// happiness = 0;
 	}
 	else if(type == NORMAL)
 	{
