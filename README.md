@@ -52,11 +52,12 @@ g++ 2.cpp Couple.cpp MakeCouples.cpp Boy.cpp Girl.cpp
 
 ## Logging details
 > ###General text files (Get recreated when the questions are run)
-  *List of randomly generated boys : List_of_boys.txt
-  *List of randomly generated girls : List_of_Girls.txt
-  *List of randomly generated gifts : List_of_Gifts.cpp
-  *List of generated couples : List_of_Gifts.txt
-  *List of gifts given : List_of_Gifts_Given.txt
+  * List of randomly generated boys : List_of_boys.txt
+  * List of randomly generated girls : List_of_Girls.txt
+  * List of randomly generated gifts : List_of_Gifts.cpp
+  * List of generated couples : List_of_Gifts.txt
+  * List of gifts given : List_of_Gifts_Given.txt
  >###Logging (Log file is permanent and maintains logs of all the executions)
  >It Maintains all the transactions which take place and logs them with timestamp. 
+ 
   **General Log** : Log.txt
