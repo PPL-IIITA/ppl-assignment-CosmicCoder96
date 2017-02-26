@@ -1,4 +1,6 @@
 #include <iostream>
+#include <stdlib.h>
+#include <time.h>
 #include <cmath>
 #include "Girl.h"
 #define CHOOSY 0

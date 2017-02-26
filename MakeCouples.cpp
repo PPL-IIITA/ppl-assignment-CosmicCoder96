@@ -1,5 +1,7 @@
 #include <iostream>
 #include <fstream>
+#include <stdlib.h>
+#include <time.h>
 #include "Boy.h"
 #include "Girl.h"
 #include "Couple.h"

@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <time.h>
+#include <stdlib.h>
 #include "Girl.h"
 #define NO_OF_GIRLS 50
 using namespace std;

@@ -1,5 +1,6 @@
 #include <iostream>
 #include <fstream>
+#include <stdlib.h>
 #include <time.h>
 #include "Boy.h"
 #define NO_OF_BOYS 100

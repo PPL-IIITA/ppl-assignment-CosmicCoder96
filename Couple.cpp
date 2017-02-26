@@ -1,4 +1,7 @@
 #include <iostream>
+#include <stdlib.h>
+#include <time.h>
+#include <cmath>
 #include "Boy.h"
 #include "Girl.h"
 #include "Couple.h"

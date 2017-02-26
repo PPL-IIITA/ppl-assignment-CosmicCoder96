@@ -1,4 +1,6 @@
 #include <iostream>
+#include <stdlib.h>
+#include <time.h>
 #include "Boy.h"
 #include "Girl.h"
 using namespace std;
