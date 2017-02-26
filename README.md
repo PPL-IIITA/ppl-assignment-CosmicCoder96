@@ -13,10 +13,9 @@ This project is an assignment for the Principal of Programming Languages course.
 ```
    g++ generate-girls.cpp -o data-girls
    ./data-girls
-   
    g++ generate-boys.cpp -o data-boys
    ./data-boys
-   ```
+```
 > Next step, to generate couples and store them in List_of_Couples.txt
   ```
   ```
