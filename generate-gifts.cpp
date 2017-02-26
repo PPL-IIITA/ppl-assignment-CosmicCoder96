@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <time.h>
+#include <stdlib.h>
 #include "Gift.h"
 #define NO_OF_GIFTS 200
 using namespace std;
@@ -41,7 +42,7 @@ int main()
 	ofstream file ("List_of_Gifts.txt");
 	for(i=0;i<NO_OF_GIFTS;i++)
 	{
-		file << gifts[i].price<<" "<<gifts[i].price<<" "<<gifts[i].type<<" "<<gifts[i].luxury_rating<<" "<<gifts[i].difficulty<<" "<<gifts[i].utility_value<<" "<<gifts[i].utility_class<<" "<<gifts[i].used<<endl;
+		file << gifts[i].price<<" "<<gifts[i].value<<" "<<gifts[i].type<<" "<<gifts[i].luxury_rating<<" "<<gifts[i].difficulty<<" "<<gifts[i].utility_value<<" "<<gifts[i].utility_class<<" "<<gifts[i].used<<endl;
 	}
 
 	file.close();

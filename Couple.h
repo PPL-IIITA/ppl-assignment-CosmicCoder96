@@ -9,6 +9,9 @@ public:
 	int happiness;
 	int compatibility;
 	void make_couples(Boy boy, Girl girl);
+	void find_compatibility();
+	static void k_happy(Couple *couples,int n, int k);
+	static void k_compatible(Couple *couples, int n, int k);
 };
 
 #endif

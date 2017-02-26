@@ -14,5 +14,6 @@ public:
 	int utility_value;
 	int utility_class;
 	int used;
+	
 };
 #endif

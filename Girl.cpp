@@ -10,14 +10,15 @@ void Girl::getHappiness(int total_gifts, int total_gift_value)
 {
 	if(type == CHOOSY)
 	{
-		happiness = log(total_gifts - maintainance_budget);
+		// happiness = log(total_gifts - maintainance_budget);
+		happiness = 0;
 	}
 	else if(type == NORMAL)
 	{
-		happiness = total_gifts-maintainance_budget + total_gift_value;
+		happiness = total_gifts-(maintainance_budget + total_gift_value);
 	}
 	else
 	{
-		happiness = (int)exp((total_gifts - maintainance_budget))%10;
+		happiness = (int)exp((total_gifts - maintainance_budget)%5);
 	}
 }
