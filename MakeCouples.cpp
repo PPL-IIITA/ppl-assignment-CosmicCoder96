@@ -31,7 +31,6 @@ if (read_boys_list.is_open())
 {
 	while(read_boys_list>> boys[i].name>>boys[i].attractiveness>>boys[i].budget>>boys[i].intelligence_level>>boys[i].min_attraction_requirement>>boys[i].type>>boys[i].committed)
 	{
-		cout<<boys[i].name<<endl;
 		i++;
 	}
 	read_boys_list.close();
@@ -47,7 +46,6 @@ if (read_girls_list.is_open())
 	cout <<"It opens\n";
 	while(read_girls_list>> girls[i].name>>girls[i].attractiveness>>girls[i].maintainance_budget>>girls[i].intelligence_level>>girls[i].criterion>>girls[i].type>>girls[i].committed)
 	{
-		cout<<girls[i].name<<1234<<endl;
 		i++;
 
 	}
@@ -98,18 +96,28 @@ for(i=0;i<NO_OF_GIRLS;i++)
 		couples[couple_count].girl = girls[i];
 		couple_count++;
 		committed_flag = false;
-		cout << "Couple : "<<boys[selectIndex].name<<" "<<girls[i].name<<" "<<i<<endl;
+		cout << "Couple" <<i<<" formed  : "<<boys[selectIndex].name<<" entered in a relationship with  "<<girls[i].name<<" "<<endl;
 	}
 	selectIndex = -1;
 
 }
 
 ofstream couples_list("List_of_Couples.txt");
+//The Log.txt file maintains the log of all the events and transactions that take place including forming and break up of couples and gift transactions.
+//It is a static file and maintains an over all log.
+ofstream log_file("Log.txt", std::fstream::in | std::fstream::out | std::fstream::app);
+time_t Now = time(0);
+char * ct = ctime(&Now);
 for(i=0;i<couple_count;i++)
 {
 	couples_list << couples[i].boy.name<<" "<<couples[i].boy.attractiveness<<" "<<couples[i].boy.budget<<" "<<couples[i].boy.intelligence_level<<" "<<couples[i].boy.min_attraction_requirement<<" "<<couples[i].boy.type<<" "<<couples[i].boy.committed<<" "<<couples[i].girl.name<<" "<<couples[i].girl.attractiveness<<" "<<couples[i].girl.maintainance_budget<<" "<<couples[i].girl.intelligence_level<<" "<<couples[i].girl.criterion<<" "<<couples[i].girl.type<<" "<<couples[i].girl.committed<<endl;
+	log_file << ct <<"Couple formed: "<<couples[i].boy.name<<" entered in a relationship with " <<couples[i].girl.name<<endl;
 }
+couples_list.close();
+log_file.close();
 }
+
+//This function facilitates the transaction of various gifts which the boys in the couple gift to their girlfriends.
 void MakeCouples::giveGifts()
 {
 	int i=0,j,couple_count, minGiftIndex=0,moneySpent = 0,moneyLeft,maxGiftIndex=0;
@@ -117,6 +125,7 @@ void MakeCouples::giveGifts()
 	Couple  couples[100];
 
 	Gift gifts[200];
+	//Couple list file is opened to accumulate all the couples in an array.
 	ifstream couples_file ("List_of_Couples.txt");
 	if(couples_file.is_open())
 	{
@@ -134,6 +143,7 @@ void MakeCouples::giveGifts()
 	couples_file.close();
 	}
 	i =0;
+	//List of gifts file is opened to accumulate all the gifts in an array
 	ifstream gifts_file ("List_of_Gifts.txt");
 	if(gifts_file.is_open())
 	{
@@ -146,6 +156,8 @@ void MakeCouples::giveGifts()
 	int total_cost[200] = {0};
 	int total_value[200] = {0};
 	ofstream gift_transaction ("List_of_Gifts_Given.txt");
+	ofstream log_file("Log.txt", std::fstream::in | std::fstream::out | std::fstream::app);
+	//suitable gifts are given by boys to the girls satisfying the restraints set upon by the boy type and 
 	for(i=0;i<couple_count;i++)
 	{
 		cout <<"\n\n";
@@ -193,6 +205,7 @@ void MakeCouples::giveGifts()
 						total_value[i]+=gifts[minGiftIndex].value;
 						cout<< "Couple "<<i<<": Gift of price "<<gifts[minGiftIndex].price<<" and value "<<gifts[minGiftIndex].value<<" was given by "<<couples[i].boy.name<<" to "<<couples[i].girl.name<<endl<<endl;
 						gift_transaction<< ct<<"Couple "<<i<<": Gift of price "<<gifts[minGiftIndex].price<<" and value "<<gifts[minGiftIndex].value<<" was given by "<<couples[i].boy.name<<" to "<<couples[i].girl.name<<endl<<endl;
+						log_file<< ct<<"Couple "<<i<<": Gift of price "<<gifts[j].price<<" and value "<<gifts[i].value<<" was given by "<<couples[i].boy.name<<" to "<<couples[i].girl.name<<endl<<endl;
 						
 					}
 
@@ -212,6 +225,7 @@ void MakeCouples::giveGifts()
 					total_value[i]+=gifts[j].value;
 					cout<< "Couple "<<i<<": Gift of price "<<gifts[j].price<<" and value "<<gifts[i].value<<" was given by "<<couples[i].boy.name<<" to "<<couples[i].girl.name<<endl<<endl;
 					gift_transaction<< ct<<"Couple "<<i<<": Gift of price "<<gifts[j].price<<" and value "<<gifts[i].value<<" was given by "<<couples[i].boy.name<<" to "<<couples[i].girl.name<<endl<<endl;
+					log_file<< ct<<"Couple "<<i<<": Gift of price "<<gifts[j].price<<" and value "<<gifts[i].value<<" was given by "<<couples[i].boy.name<<" to "<<couples[i].girl.name<<endl<<endl;
 				}
 			}
 			else
@@ -230,6 +244,7 @@ void MakeCouples::giveGifts()
 						total_value[i]+=gifts[j].value;
 						cout<< "Couple "<<i<<": Gift of price "<<gifts[j].price<<" and value "<<gifts[i].value<<" was given by "<<couples[i].boy.name<<" to "<<couples[i].girl.name<<endl<<endl;
 						gift_transaction<< ct<<"Couple "<<i<<": Gift of price "<<gifts[j].price<<" and value "<<gifts[i].value<<" was given by "<<couples[i].boy.name<<" to "<<couples[i].girl.name<<endl<<endl;
+						log_file<< ct<<"Couple "<<i<<": Gift of price "<<gifts[j].price<<" and value "<<gifts[i].value<<" was given by "<<couples[i].boy.name<<" to "<<couples[i].girl.name<<endl<<endl;
 					}
 					else
 					{
@@ -240,6 +255,7 @@ void MakeCouples::giveGifts()
 					total_value[i]+=gifts[j].value;
 					cout<< "Couple "<<i<<": Gift of price "<<gifts[j].price<<" and value "<<gifts[i].value<<" was given by "<<couples[i].boy.name<<" to "<<couples[i].girl.name<<endl<<endl;
 					gift_transaction<< ct<<"Couple "<<i<<": Gift of price "<<gifts[j].price<<" and value "<<gifts[i].value<<" was given by "<<couples[i].boy.name<<" to "<<couples[i].girl.name<<endl<<endl;
+					log_file<< ct<<"Couple "<<i<<": Gift of price "<<gifts[j].price<<" and value "<<gifts[i].value<<" was given by "<<couples[i].boy.name<<" to "<<couples[i].girl.name<<endl<<endl;
 					}
 
 				}
@@ -251,7 +267,6 @@ void MakeCouples::giveGifts()
 		couples[i].girl.getHappiness(total_cost[i], total_value[i]);
 		couples[i].boy.getHappiness(couples[i].girl, total_cost[i]);
 		couples[i].happiness = couples[i].boy.happiness+couples[i].girl.happiness;
-		// cout<< "Happiness of couple "<<i<< " is "  <<couples[i].boy.happiness<<" "<<couples[i].girl.happiness<<" " <<couples[i].happiness<<endl<<endl;
 		couples[i].find_compatibility();
 
 	}
@@ -259,11 +274,13 @@ void MakeCouples::giveGifts()
 	cout<< "Enter the value of K\n";
 	cin >> k;
 	if(k<=couple_count){
-	Couple::k_happy(couples,couple_count,12);	
-	Couple::k_compatible(couples,couple_count,12);
+	//These helper functions help in calculating the k most happy and k most compatible couples
+	Couple::k_happy(couples,couple_count,k);	
+	Couple::k_compatible(couples,couple_count,k);
 	}
 	else
 	{
 		cout<<"The value of k entered by you exceeds the number of couples"<<endl;
 	}
+	log_file.close();
 }

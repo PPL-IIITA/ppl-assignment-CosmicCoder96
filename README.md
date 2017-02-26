@@ -9,16 +9,19 @@ This project is an assignment for the Principal of Programming Languages course.
 
 
 ### Question 1
-> First step would be to genereate a random list of boys and girls 
+First step would be to genereate a random list of boys and girls 
 ```
-   g++ generate-girls.cpp -o data-girls
+g++ generate-girls.cpp -o data-girls
    ./data-girls
    g++ generate-boys.cpp -o data-boys
    ./data-boys
 ```
-> Next step, to generate couples and store them in List_of_Couples.txt
+Next step, to generate couples and store them in List_of_Couples.txt
   ```
+
   ```
   
 ### Question 2
-
+```
+g++ 2.cpp Couple.cpp MakeCouples.cpp Boy.cpp Girl.cpp
+```
