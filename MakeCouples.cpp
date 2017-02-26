@@ -43,7 +43,6 @@ ifstream read_girls_list ("List_of_Girls.txt");
 
 if (read_girls_list.is_open())
 {
-	cout <<"It opens\n";
 	while(read_girls_list>> girls[i].name>>girls[i].attractiveness>>girls[i].maintainance_budget>>girls[i].intelligence_level>>girls[i].criterion>>girls[i].type>>girls[i].committed)
 	{
 		i++;
