@@ -95,6 +95,6 @@ for(i=0;i<NO_OF_GIRLS;i++)
 ofstream couples_list("List_of_Couples.txt");
 for(i=0;i<couple_count;i++)
 {
-	couples_list << couples[i].boy.name<<" "<<couples[i].girl.name<<endl;
+	couples_list << couples[i].boy.name<<" "<<couples[i].boy.attractiveness<<" "<<couples[i].boy.budget<<" "<<couples[i].boy.intelligence_level<<" "<<couples[i].boy.min_attraction_requirement<<" "<<couples[i].boy.type<<" "<<couples[i].boy.committed<<" "<<couples[i].girl.name<<" "<<couples[i].girl.attractiveness<<" "<<couples[i].girl.maintainance_budget<<" "<<couples[i].girl.intelligence_level<<" "<<couples[i].girl.criterion<<" "<<couples[i].girl.type<<" "<<couples[i].girl.committed<<endl;
 }
 }

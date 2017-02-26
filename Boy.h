@@ -1,6 +1,9 @@
 #ifndef BOY_H_
 #define BOY_H_
 #define MAX_NAME_LENGTH 7
+#define MISER 0
+#define GENEROUS 1
+#define GEEK 2
 #include "Girl.h"
 class Boy{
 public:
@@ -16,3 +19,5 @@ public:
 };
 
 #endif
+
+

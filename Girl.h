@@ -12,6 +12,7 @@ public:
 	int committed;
 	int happiness;
 	void getHappiness(int total_gifts, int total_gift_value);
-	
+
 };
 #endif
+// <<" "<<couples[i].girl.attractiveness<<" "<<couples[i].girl.maintainance_budget<<" "<<couples[i].girl.intelligence_level<<" "<<couples[i].girl.criterion<<" "<<couples[i].girl.type<<" "<<couples[i].girl.committed<<endl;
