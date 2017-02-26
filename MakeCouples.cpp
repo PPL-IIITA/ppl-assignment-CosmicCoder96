@@ -11,15 +11,21 @@
 #define MOST_RICH 1
 #define MOST_INTELLIGENT 2
 using namespace std;
+/*This is the class primarily responsible for the functioning of the program and makes use of Boy, Girl, Couple
+ and Gift classes to solve problems. */
 
 
+//generateCouples() function is responsible for generating various random couples and store them in a specified text file.
 void MakeCouples::generateCouples()
 {
-	int i = 0,j=0, selectIndex = -1,couple_count = 0;
+/* Generating couples requires the function to read from the list of boys and girls from their respective files and then 
+based on the criterion and preference as per the requirements, form couples */
+int i = 0,j=0, selectIndex = -1,couple_count = 0;
 bool committed_flag = false;
 Boy boys[NO_OF_BOYS];
 Girl girls[NO_OF_GIRLS];
 Couple couples[NO_OF_GIRLS];
+// The file List_of_Boys.txt contains the list of randomly generated boys which is read and stored in the array.
 ifstream read_boys_list  ("List_of_boys.txt");
 if (read_boys_list.is_open())
 {
@@ -32,6 +38,8 @@ if (read_boys_list.is_open())
 
 }
 i=0;
+
+// The file List_of_Girls.txt contains the list of randomly generated girls which is read and stored in the array.
 ifstream read_girls_list ("List_of_Girls.txt");
 
 if (read_girls_list.is_open())
@@ -45,9 +53,10 @@ if (read_girls_list.is_open())
 	}
 	read_girls_list.close();
 }
+
+/* After reading the required amount of boys and girls, this loop proceeds with the formation of couples */
 for(i=0;i<NO_OF_GIRLS;i++)
 {
-	// cout<<girls[i].name<<endl;
 	for(j=0;j<NO_OF_BOYS;j++)
 	{
 		if(boys[j].committed == 1|| girls[i].maintainance_budget>boys[j].budget || girls[i].attractiveness < boys[j].min_attraction_requirement)

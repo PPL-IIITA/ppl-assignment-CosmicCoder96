@@ -4,15 +4,18 @@
 #include "Couple.h"
 using namespace std;
 
+
+//The find_compatibility() function calculates the comaptibility of a particular couple by using the formula as given.
 void Couple::find_compatibility()
 {
 	compatibility = (boy.budget - girl.maintainance_budget) + abs(boy.attractiveness - girl.attractiveness) + abs(girl.intelligence_level - boy.intelligence_level);
 }
 
+//The k_happy function accepts an array of couples and the value entered by the user,k
 void Couple:: k_happy(Couple *couples,int n, int k)
 {
 	int done[200] = {0};
-	int maxHappyIndex = 0,i,j; 
+	int maxHappyIndex = 0,i,j; //The function finds out the k-happiest couples and then prints them in order.
 	for(i=0;i<k;i++)
 	{
 		for(j=0;j<n;j++)
@@ -36,10 +39,11 @@ void Couple:: k_happy(Couple *couples,int n, int k)
 	}
 }
 
+//The k_compatible function accepts an array of couples and the value entered by the user,k
 void Couple::k_compatible(Couple *couples, int n, int k)
 {
 	int done[200] = {0};
-	int  maxCompatibleIndex = 0,i,j; 
+	int  maxCompatibleIndex = 0,i,j; //The function finds out the k most compatible couples and then prints them in order.
 	for(i=0;i<k;i++)
 	{
 		for(j=0;j<n;j++)
