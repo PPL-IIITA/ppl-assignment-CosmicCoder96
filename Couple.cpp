@@ -14,6 +14,7 @@ void Couple::find_compatibility()
 //The k_happy function accepts an array of couples and the value entered by the user,k
 void Couple:: k_happy(Couple *couples,int n, int k)
 {
+	cout<<"\nThe "<<k<<" most happy couples with their happiness are \n\n";
 	int done[200] = {0};
 	int maxHappyIndex = 0,i,j; //The function finds out the k-happiest couples and then prints them in order.
 	for(i=0;i<k;i++)
@@ -34,7 +35,7 @@ void Couple:: k_happy(Couple *couples,int n, int k)
 
 			}
 		}
-		cout<<couples[maxHappyIndex].boy.name <<" "<<couples[maxHappyIndex].girl.name <<" "<<couples[maxHappyIndex].happiness<<endl;
+		cout<<couples[maxHappyIndex].boy.name <<" "<<couples[maxHappyIndex].girl.name <<" "<<couples[maxHappyIndex].happiness<<endl<<endl;
 		done[maxHappyIndex] = 1;
 	}
 }
@@ -42,6 +43,7 @@ void Couple:: k_happy(Couple *couples,int n, int k)
 //The k_compatible function accepts an array of couples and the value entered by the user,k
 void Couple::k_compatible(Couple *couples, int n, int k)
 {
+	cout<<"\nThe "<<k<<" most compatible couples with their compatibility are \n\n";
 	int done[200] = {0};
 	int  maxCompatibleIndex = 0,i,j; //The function finds out the k most compatible couples and then prints them in order.
 	for(i=0;i<k;i++)
@@ -62,7 +64,7 @@ void Couple::k_compatible(Couple *couples, int n, int k)
 
 			}
 		}
-		cout<<couples[maxCompatibleIndex].boy.name <<" "<<couples[maxCompatibleIndex].girl.name <<" "<<couples[maxCompatibleIndex].compatibility<<endl;
+		cout<<couples[maxCompatibleIndex].boy.name <<" "<<couples[maxCompatibleIndex].girl.name <<" "<<couples[maxCompatibleIndex].compatibility<<endl<<endl;
 		done[maxCompatibleIndex] = 1;
 	}
 }

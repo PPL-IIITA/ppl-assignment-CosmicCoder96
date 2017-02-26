@@ -59,6 +59,7 @@ for(i=0;i<NO_OF_GIRLS;i++)
 {
 	for(j=0;j<NO_OF_BOYS;j++)
 	{
+		/*It takes into account the various criterions of girls and boys , like their attractiveness and budget and based on them assign them to each other */
 		if(boys[j].committed == 1|| girls[i].maintainance_budget>boys[j].budget || girls[i].attractiveness < boys[j].min_attraction_requirement)
 			continue;
 		else
@@ -117,7 +118,6 @@ void MakeCouples::giveGifts()
 
 	Gift gifts[200];
 	ifstream couples_file ("List_of_Couples.txt");
-	cout<<"Hello\n";
 	if(couples_file.is_open())
 	{
 		while(couples_file>> couples[i].boy.name>>couples[i].boy.attractiveness>>couples[i].boy.budget>>couples[i].boy.intelligence_level>>couples[i].boy.min_attraction_requirement>>couples[i].boy.type>>couples[i].boy.committed>>couples[i].girl.name>>couples[i].girl.attractiveness>>couples[i].girl.maintainance_budget>>couples[i].girl.intelligence_level>>couples[i].girl.criterion>>couples[i].girl.type>>couples[i].girl.committed)
@@ -139,14 +139,16 @@ void MakeCouples::giveGifts()
 	{
 		while(gifts_file >> gifts[i].price>>gifts[i].value>>gifts[i].type>>gifts[i].luxury_rating>>gifts[i].difficulty>>gifts[i].utility_value>>gifts[i].utility_class>>gifts[i].used)
 		{
-			cout << gifts[i].price<<" "<<gifts[i].value<<" "<<gifts[i].type<<" "<<gifts[i].luxury_rating<<" "<<gifts[i].difficulty<<" "<<gifts[i].utility_value<<" "<<gifts[i].utility_class<<" "<<gifts[i].used<<endl;
+			// cout << gifts[i].price<<" "<<gifts[i].value<<" "<<gifts[i].type<<" "<<gifts[i].luxury_rating<<" "<<gifts[i].difficulty<<" "<<gifts[i].utility_value<<" "<<gifts[i].utility_class<<" "<<gifts[i].used<<endl;
 			i++;
 		}
 	}
 	int total_cost[200] = {0};
 	int total_value[200] = {0};
+	ofstream gift_transaction ("List_of_Gifts_Given.txt");
 	for(i=0;i<couple_count;i++)
 	{
+		cout <<"\n\n";
 		moneySpent = 0;
 		moneyLeft = couples[i].boy.budget;
 		luxury_gift = false;
@@ -174,6 +176,8 @@ void MakeCouples::giveGifts()
 		}
 		for(j=0;j<200;j++)
 		{
+			time_t Now = time(0);
+			char * ct = ctime(&Now);
 			if(couples[i].boy.type == MISER)
 			{
 				if(gifts[j].used == 1 || gifts[minGiftIndex].price>couples[i].boy.budget || gifts[minGiftIndex].price > moneyLeft || moneySpent > couples[i].girl.maintainance_budget)
@@ -187,8 +191,9 @@ void MakeCouples::giveGifts()
 						moneyLeft -= gifts[minGiftIndex].price;
 						total_cost[i]+= gifts[minGiftIndex].price;
 						total_value[i]+=gifts[minGiftIndex].value;
-						cout<< "Couple "<<i<<": Gift of price "<<gifts[minGiftIndex].price<<"and value "<<gifts[minGiftIndex].value<<" was given by "<<couples[i].boy.name<<" to "<<couples[i].girl.name<<endl;
-						cout<<"MISER\n";
+						cout<< "Couple "<<i<<": Gift of price "<<gifts[minGiftIndex].price<<" and value "<<gifts[minGiftIndex].value<<" was given by "<<couples[i].boy.name<<" to "<<couples[i].girl.name<<endl<<endl;
+						gift_transaction<< ct<<"Couple "<<i<<": Gift of price "<<gifts[minGiftIndex].price<<" and value "<<gifts[minGiftIndex].value<<" was given by "<<couples[i].boy.name<<" to "<<couples[i].girl.name<<endl<<endl;
+						
 					}
 
 				}
@@ -205,8 +210,8 @@ void MakeCouples::giveGifts()
 					moneyLeft -= gifts[j].price;
 					total_cost[i]+= gifts[j].price;
 					total_value[i]+=gifts[j].value;
-					cout<< "Couple "<<i<<": Gift of price "<<gifts[j].price<<"and value "<<gifts[i].value<<" was given by "<<couples[i].boy.name<<" to "<<couples[i].girl.name<<endl;
-					cout<<"GENEROUS\n";
+					cout<< "Couple "<<i<<": Gift of price "<<gifts[j].price<<" and value "<<gifts[i].value<<" was given by "<<couples[i].boy.name<<" to "<<couples[i].girl.name<<endl<<endl;
+					gift_transaction<< ct<<"Couple "<<i<<": Gift of price "<<gifts[j].price<<" and value "<<gifts[i].value<<" was given by "<<couples[i].boy.name<<" to "<<couples[i].girl.name<<endl<<endl;
 				}
 			}
 			else
@@ -223,8 +228,8 @@ void MakeCouples::giveGifts()
 						moneyLeft -= gifts[j].price;
 						total_cost[i]+= gifts[j].price;
 						total_value[i]+=gifts[j].value;
-						cout<< "Couple "<<i<<": Gift of price "<<gifts[j].price<<"and value "<<gifts[i].value<<" was given by "<<couples[i].boy.name<<" to "<<couples[i].girl.name<<endl;
-						cout<<"LUXURY\n";
+						cout<< "Couple "<<i<<": Gift of price "<<gifts[j].price<<" and value "<<gifts[i].value<<" was given by "<<couples[i].boy.name<<" to "<<couples[i].girl.name<<endl<<endl;
+						gift_transaction<< ct<<"Couple "<<i<<": Gift of price "<<gifts[j].price<<" and value "<<gifts[i].value<<" was given by "<<couples[i].boy.name<<" to "<<couples[i].girl.name<<endl<<endl;
 					}
 					else
 					{
@@ -233,8 +238,8 @@ void MakeCouples::giveGifts()
 					moneyLeft -= gifts[j].price;
 					total_cost[i]+= gifts[j].price;
 					total_value[i]+=gifts[j].value;
-					cout<< "Couple "<<i<<": Gift of price "<<gifts[j].price<<"and value "<<gifts[i].value<<" was given by "<<couples[i].boy.name<<" to "<<couples[i].girl.name<<endl;
-					cout<<"LUXURY\n";
+					cout<< "Couple "<<i<<": Gift of price "<<gifts[j].price<<" and value "<<gifts[i].value<<" was given by "<<couples[i].boy.name<<" to "<<couples[i].girl.name<<endl<<endl;
+					gift_transaction<< ct<<"Couple "<<i<<": Gift of price "<<gifts[j].price<<" and value "<<gifts[i].value<<" was given by "<<couples[i].boy.name<<" to "<<couples[i].girl.name<<endl<<endl;
 					}
 
 				}
@@ -246,11 +251,19 @@ void MakeCouples::giveGifts()
 		couples[i].girl.getHappiness(total_cost[i], total_value[i]);
 		couples[i].boy.getHappiness(couples[i].girl, total_cost[i]);
 		couples[i].happiness = couples[i].boy.happiness+couples[i].girl.happiness;
-		cout<< "Happiness of couple "<<i<< "is "  <<couples[i].boy.happiness<<" "<<couples[i].girl.happiness<<" " <<couples[i].happiness<<endl;
+		// cout<< "Happiness of couple "<<i<< " is "  <<couples[i].boy.happiness<<" "<<couples[i].girl.happiness<<" " <<couples[i].happiness<<endl<<endl;
 		couples[i].find_compatibility();
 
 	}
-
+	int k;
+	cout<< "Enter the value of K\n";
+	cin >> k;
+	if(k<=couple_count){
 	Couple::k_happy(couples,couple_count,12);	
 	Couple::k_compatible(couples,couple_count,12);
+	}
+	else
+	{
+		cout<<"The value of k entered by you exceeds the number of couples"<<endl;
+	}
 }

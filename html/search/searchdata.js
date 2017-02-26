@@ -1,21 +1,36 @@
 var indexSectionsWithContent =
 {
-  0: "bcgmp",
+  0: "12abcdefghiklmnprtuv",
   1: "bcgm",
-  2: "p"
+  2: "12bcgmr",
+  3: "fgkm",
+  4: "abcdghilmnptuv",
+  5: "c",
+  6: "cdeglmnu",
+  7: "p"
 };
 
 var indexSectionNames =
 {
   0: "all",
   1: "classes",
-  2: "pages"
+  2: "files",
+  3: "functions",
+  4: "variables",
+  5: "related",
+  6: "defines",
+  7: "pages"
 };
 
 var indexSectionLabels =
 {
   0: "All",
   1: "Classes",
-  2: "Pages"
+  2: "Files",
+  3: "Functions",
+  4: "Variables",
+  5: "Friends",
+  6: "Macros",
+  7: "Pages"
 };
 
