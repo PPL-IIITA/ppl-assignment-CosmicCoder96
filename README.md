@@ -105,13 +105,10 @@ python q10.py
 ```
 >The generated couples will be stored in couple-list.txt
   
-## Logging details
+## Documentation details
 ###General text files (Get recreated when the questions are run)
   * List of randomly generated boys : boys-list.txt
   * List of randomly generated girls : girls-list.txt
   * List of randomly generated gifts : gifts-list.cpp
-  * List of generated couples : couple-list.txt
+  * All the documentation resides in documentation folder inside each of the question folders eg : q3/Documentatiom
 
-###Logging (Log file is permanent and maintains logs of all the executions)
- >It Maintains all the transactions which take place and logs them with timestamp. 
- **General Log** : Log.txt

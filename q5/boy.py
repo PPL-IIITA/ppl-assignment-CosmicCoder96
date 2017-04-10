@@ -24,5 +24,3 @@ class Boy:
 			return False
 	def commit(self):
 		self.committed = 1
-
-
