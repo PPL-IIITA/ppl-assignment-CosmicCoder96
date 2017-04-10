@@ -26,7 +26,7 @@ cd q3
 ```
 python q3.py
 ```
->The generated couples will be stored in List_of_Couples.txt
+>The generated couples will be stored in couple-list.txt
   
 
 ### Question 4
@@ -38,7 +38,7 @@ cd q4
 ```
 python q4.py
 ```
->The generated couples will be stored in List_of_Couples.txt
+>The generated couples will be stored in couple-list.txt
   
 ### Question 5
 >First navigate to the directory q5
@@ -49,7 +49,7 @@ cd q5
 ```
 python q5.py
 ```
->The generated couples will be stored in List_of_Couples.txt
+>The generated couples will be stored in couple-list.txt
 ### Question 6
 >First navigate to the directory q6
 ```
@@ -59,7 +59,7 @@ cd q6
 ```
 python q6.py
 ```
->The generated couples will be stored in List_of_Couples.txt
+>The generated couples will be stored in couple-list.txt
   
 ### Question 7
 >First navigate to the directory q7
@@ -70,7 +70,7 @@ cd q7
 ```
 python q7.py
 ```
->The generated couples will be stored in List_of_Couples.txt
+>The generated couples will be stored in couple-list.txt
  
 ### Question 8
 >First navigate to the directory q8
@@ -81,7 +81,7 @@ cd q8
 ```
 python q8.py
 ```
->The generated couples will be stored in List_of_Couples.txt
+>The generated couples will be stored in couple-list.txt
 
 ### Question 9
 >First navigate to the directory q9
@@ -92,7 +92,7 @@ cd q9
 ```
 python q9.py
 ```
->The generated couples will be stored in List_of_Couples.txt
+>The generated couples will be stored in couple-list.txt
   
 ### Question 10
 >First navigate to the directory q10
@@ -103,15 +103,14 @@ cd q10
 ```
 python q10.py
 ```
->The generated couples will be stored in List_of_Couples.txt
+>The generated couples will be stored in couple-list.txt
   
 ## Logging details
 ###General text files (Get recreated when the questions are run)
-  * List of randomly generated boys : List_of_boys.txt
-  * List of randomly generated girls : List_of_Girls.txt
-  * List of randomly generated gifts : List_of_Gifts.cpp
-  * List of generated couples : List_of_Gifts.txt
-  * List of gifts given : List_of_Gifts_Given.txt
+  * List of randomly generated boys : boys-list.txt
+  * List of randomly generated girls : girls-list.txt
+  * List of randomly generated gifts : gifts-list.cpp
+  * List of generated couples : couple-list.txt
 
 ###Logging (Log file is permanent and maintains logs of all the executions)
  >It Maintains all the transactions which take place and logs them with timestamp. 
