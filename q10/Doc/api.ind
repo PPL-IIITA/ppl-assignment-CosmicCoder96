@@ -1,0 +1,81 @@
+\begin{theindex}
+
+  \item boy \textit{(module)}, \hyperpage{3--4}
+    \subitem boy.Boy \textit{(class)}, \hyperpage{3}
+      \subsubitem boy.Boy.\_\_init\_\_ \textit{(method)}, \hyperpage{3}
+      \subsubitem boy.Boy.commit \textit{(method)}, \hyperpage{3}
+      \subsubitem boy.Boy.isCommitted \textit{(method)}, \hyperpage{3}
+    \subitem boy.Geek \textit{(class)}, \hyperpage{3}
+      \subsubitem boy.Geek.getHappiness \textit{(method)}, 
+		\hyperpage{3}
+    \subitem boy.Generous \textit{(class)}, \hyperpage{4}
+      \subsubitem boy.Generous.getHappiness \textit{(method)}, 
+		\hyperpage{4}
+    \subitem boy.Miser \textit{(class)}, \hyperpage{3--4}
+      \subsubitem boy.Miser.getHappiness \textit{(method)}, 
+		\hyperpage{4}
+
+  \indexspace
+
+  \item couple \textit{(module)}, \hyperpage{5}
+    \subitem couple.Couple \textit{(class)}, \hyperpage{5}
+      \subsubitem couple.Couple.\_\_init\_\_ \textit{(method)}, 
+		\hyperpage{5}
+
+  \indexspace
+
+  \item gift \textit{(module)}, \hyperpage{6--7}
+    \subitem gift.essentialGift \textit{(class)}, \hyperpage{6--7}
+    \subitem gift.Gift \textit{(class)}, \hyperpage{6}
+      \subsubitem gift.Gift.\_\_init\_\_ \textit{(method)}, 
+		\hyperpage{6}
+    \subitem gift.luxuryGift \textit{(class)}, \hyperpage{6}
+    \subitem gift.utilityGift \textit{(class)}, \hyperpage{6}
+  \item girl \textit{(module)}, \hyperpage{8--9}
+    \subitem girl.Choosy \textit{(class)}, \hyperpage{8}
+      \subsubitem girl.Choosy.getHappiness \textit{(method)}, 
+		\hyperpage{8}
+    \subitem girl.Desperate \textit{(class)}, \hyperpage{9}
+      \subsubitem girl.Desperate.getHappiness \textit{(method)}, 
+		\hyperpage{9}
+    \subitem girl.Girl \textit{(class)}, \hyperpage{8}
+      \subsubitem girl.Girl.\_\_init\_\_ \textit{(method)}, 
+		\hyperpage{8}
+      \subsubitem girl.Girl.commit \textit{(method)}, \hyperpage{8}
+      \subsubitem girl.Girl.isCommitted \textit{(method)}, 
+		\hyperpage{8}
+    \subitem girl.Normal \textit{(class)}, \hyperpage{8--9}
+      \subsubitem girl.Normal.getHappiness \textit{(method)}, 
+		\hyperpage{9}
+
+  \indexspace
+
+  \item q10 \textit{(module)}, \hyperpage{10}
+    \subitem q10.q10 \textit{(function)}, \hyperpage{10}
+
+  \indexspace
+
+  \item script-boys\_list\_txt \textit{(script)}, \hyperpage{11}
+  \item script-couple\_list\_txt \textit{(script)}, \hyperpage{12}
+  \item script-gift\_list\_txt \textit{(script)}, \hyperpage{13}
+  \item script-girls\_list\_txt \textit{(script)}, \hyperpage{14}
+
+  \indexspace
+
+  \item utility \textit{(module)}, \hyperpage{15}
+    \subitem utility.generateBoyList \textit{(function)}, 
+		\hyperpage{15}
+    \subitem utility.generateGiftList \textit{(function)}, 
+		\hyperpage{15}
+    \subitem utility.generateGirlList \textit{(function)}, 
+		\hyperpage{15}
+    \subitem utility.giveGifts \textit{(function)}, \hyperpage{15}
+    \subitem utility.k\_least\_happy\_couples \textit{(function)}, 
+		\hyperpage{15}
+    \subitem utility.k\_most\_happy\_couples \textit{(function)}, 
+		\hyperpage{15}
+    \subitem utility.makeCouples \textit{(function)}, \hyperpage{15}
+    \subitem utility.randomName \textit{(function)}, \hyperpage{15}
+    \subitem utility.valentine \textit{(function)}, \hyperpage{15}
+
+\end{theindex}

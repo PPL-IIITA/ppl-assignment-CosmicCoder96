@@ -1,0 +1,70 @@
+\indexentry{boy \textit{(module)}|(hyperpage}{3}
+\indexentry{boy \textit{(module)}!boy.Boy \textit{(class)}|(hyperpage}{3}
+\indexentry{boy \textit{(module)}!boy.Boy \textit{(class)}!boy.Boy.\_\_init\_\_ \textit{(method)}|hyperpage}{3}
+\indexentry{boy \textit{(module)}!boy.Boy \textit{(class)}!boy.Boy.isCommitted \textit{(method)}|hyperpage}{3}
+\indexentry{boy \textit{(module)}!boy.Boy \textit{(class)}!boy.Boy.commit \textit{(method)}|hyperpage}{3}
+\indexentry{boy \textit{(module)}!boy.Boy \textit{(class)}|)hyperpage}{3}
+\indexentry{boy \textit{(module)}!boy.Geek \textit{(class)}|(hyperpage}{3}
+\indexentry{boy \textit{(module)}!boy.Geek \textit{(class)}!boy.Geek.getHappiness \textit{(method)}|hyperpage}{3}
+\indexentry{boy \textit{(module)}!boy.Geek \textit{(class)}|)hyperpage}{3}
+\indexentry{boy \textit{(module)}!boy.Miser \textit{(class)}|(hyperpage}{3}
+\indexentry{boy \textit{(module)}!boy.Miser \textit{(class)}!boy.Miser.getHappiness \textit{(method)}|hyperpage}{4}
+\indexentry{boy \textit{(module)}!boy.Miser \textit{(class)}|)hyperpage}{4}
+\indexentry{boy \textit{(module)}!boy.Generous \textit{(class)}|(hyperpage}{4}
+\indexentry{boy \textit{(module)}!boy.Generous \textit{(class)}!boy.Generous.getHappiness \textit{(method)}|hyperpage}{4}
+\indexentry{boy \textit{(module)}!boy.Generous \textit{(class)}|)hyperpage}{4}
+\indexentry{boy \textit{(module)}|)hyperpage}{4}
+\indexentry{couple \textit{(module)}|(hyperpage}{5}
+\indexentry{couple \textit{(module)}!couple.Couple \textit{(class)}|(hyperpage}{5}
+\indexentry{couple \textit{(module)}!couple.Couple \textit{(class)}!couple.Couple.\_\_init\_\_ \textit{(method)}|hyperpage}{5}
+\indexentry{couple \textit{(module)}!couple.Couple \textit{(class)}|)hyperpage}{5}
+\indexentry{couple \textit{(module)}|)hyperpage}{5}
+\indexentry{gift \textit{(module)}|(hyperpage}{6}
+\indexentry{gift \textit{(module)}!gift.Gift \textit{(class)}|(hyperpage}{6}
+\indexentry{gift \textit{(module)}!gift.Gift \textit{(class)}!gift.Gift.\_\_init\_\_ \textit{(method)}|hyperpage}{6}
+\indexentry{gift \textit{(module)}!gift.Gift \textit{(class)}|)hyperpage}{6}
+\indexentry{gift \textit{(module)}!gift.utilityGift \textit{(class)}|(hyperpage}{6}
+\indexentry{gift \textit{(module)}!gift.utilityGift \textit{(class)}|)hyperpage}{6}
+\indexentry{gift \textit{(module)}!gift.luxuryGift \textit{(class)}|(hyperpage}{6}
+\indexentry{gift \textit{(module)}!gift.luxuryGift \textit{(class)}|)hyperpage}{6}
+\indexentry{gift \textit{(module)}!gift.essentialGift \textit{(class)}|(hyperpage}{6}
+\indexentry{gift \textit{(module)}!gift.essentialGift \textit{(class)}|)hyperpage}{7}
+\indexentry{gift \textit{(module)}|)hyperpage}{7}
+\indexentry{girl \textit{(module)}|(hyperpage}{8}
+\indexentry{girl \textit{(module)}!girl.Girl \textit{(class)}|(hyperpage}{8}
+\indexentry{girl \textit{(module)}!girl.Girl \textit{(class)}!girl.Girl.\_\_init\_\_ \textit{(method)}|hyperpage}{8}
+\indexentry{girl \textit{(module)}!girl.Girl \textit{(class)}!girl.Girl.isCommitted \textit{(method)}|hyperpage}{8}
+\indexentry{girl \textit{(module)}!girl.Girl \textit{(class)}!girl.Girl.commit \textit{(method)}|hyperpage}{8}
+\indexentry{girl \textit{(module)}!girl.Girl \textit{(class)}|)hyperpage}{8}
+\indexentry{girl \textit{(module)}!girl.Choosy \textit{(class)}|(hyperpage}{8}
+\indexentry{girl \textit{(module)}!girl.Choosy \textit{(class)}!girl.Choosy.getHappiness \textit{(method)}|hyperpage}{8}
+\indexentry{girl \textit{(module)}!girl.Choosy \textit{(class)}|)hyperpage}{8}
+\indexentry{girl \textit{(module)}!girl.Normal \textit{(class)}|(hyperpage}{8}
+\indexentry{girl \textit{(module)}!girl.Normal \textit{(class)}!girl.Normal.getHappiness \textit{(method)}|hyperpage}{9}
+\indexentry{girl \textit{(module)}!girl.Normal \textit{(class)}|)hyperpage}{9}
+\indexentry{girl \textit{(module)}!girl.Desperate \textit{(class)}|(hyperpage}{9}
+\indexentry{girl \textit{(module)}!girl.Desperate \textit{(class)}!girl.Desperate.getHappiness \textit{(method)}|hyperpage}{9}
+\indexentry{girl \textit{(module)}!girl.Desperate \textit{(class)}|)hyperpage}{9}
+\indexentry{girl \textit{(module)}|)hyperpage}{9}
+\indexentry{q10 \textit{(module)}|(hyperpage}{10}
+\indexentry{q10 \textit{(module)}!q10.q10 \textit{(function)}|hyperpage}{10}
+\indexentry{q10 \textit{(module)}|)hyperpage}{10}
+\indexentry{script-boys\_list\_txt \textit{(script)}|(hyperpage}{11}
+\indexentry{script-boys\_list\_txt \textit{(script)}|)hyperpage}{11}
+\indexentry{script-couple\_list\_txt \textit{(script)}|(hyperpage}{12}
+\indexentry{script-couple\_list\_txt \textit{(script)}|)hyperpage}{12}
+\indexentry{script-gift\_list\_txt \textit{(script)}|(hyperpage}{13}
+\indexentry{script-gift\_list\_txt \textit{(script)}|)hyperpage}{13}
+\indexentry{script-girls\_list\_txt \textit{(script)}|(hyperpage}{14}
+\indexentry{script-girls\_list\_txt \textit{(script)}|)hyperpage}{14}
+\indexentry{utility \textit{(module)}|(hyperpage}{15}
+\indexentry{utility \textit{(module)}!utility.randomName \textit{(function)}|hyperpage}{15}
+\indexentry{utility \textit{(module)}!utility.generateBoyList \textit{(function)}|hyperpage}{15}
+\indexentry{utility \textit{(module)}!utility.generateGirlList \textit{(function)}|hyperpage}{15}
+\indexentry{utility \textit{(module)}!utility.generateGiftList \textit{(function)}|hyperpage}{15}
+\indexentry{utility \textit{(module)}!utility.makeCouples \textit{(function)}|hyperpage}{15}
+\indexentry{utility \textit{(module)}!utility.giveGifts \textit{(function)}|hyperpage}{15}
+\indexentry{utility \textit{(module)}!utility.k\_most\_happy\_couples \textit{(function)}|hyperpage}{15}
+\indexentry{utility \textit{(module)}!utility.k\_least\_happy\_couples \textit{(function)}|hyperpage}{15}
+\indexentry{utility \textit{(module)}!utility.valentine \textit{(function)}|hyperpage}{15}
+\indexentry{utility \textit{(module)}|)hyperpage}{15}
