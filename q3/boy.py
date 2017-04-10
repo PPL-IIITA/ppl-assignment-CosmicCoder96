@@ -1,4 +1,10 @@
 class Boy:
+	'''
+	:param boy: a boy object
+	:param name: name attribute of the boy object
+	:param attractiveness: attractiveness of the boy
+	
+	'''
 	def __init__(self,name,attractiveness,budget,intelligence_level,min_attraction_requirement,committed,happiness):
 		self.name=name
 		self.attractiveness=attractiveness
