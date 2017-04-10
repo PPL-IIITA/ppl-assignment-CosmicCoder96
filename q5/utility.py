@@ -9,8 +9,8 @@ from random import randint
 def randomName(size=6, chars=string.ascii_uppercase):
 	return ''.join(random.choice(chars) for _ in range(size))
 	
-boyList=[]
 def generateBoyList():
+	boyList=[]
 	f=open('boys-list.txt','w')
 	for i in range(1,500):
 		name = randomName();
@@ -39,8 +39,8 @@ def generateBoyList():
 
 
 
-girlList=[]
 def generateGirlList():
+	girlList=[]
 	f = open('girls-list.txt','w')
 	for i in range(1,500):
 		name = randomName();
@@ -75,7 +75,6 @@ def generateGirlList():
 	girlList.sort(key = lambda x: x.maintainance_budget, reverse = False)
 	return girlList
 
-gift_list= []
 def generateGiftList():
 	gift_list = []
 	f = open('gift-list.txt','w')
@@ -107,12 +106,9 @@ def generateGiftList():
 	return gift_list
 
 
-couple_list = []
-boy_list = generateBoyList()
-girl_list = generateGirlList()
-def makeCouples(mode):
+def makeCouples(mode,boy_list,girl_list):
 	
-	# couple_list = []
+	couple_list = []
 	commitFlag = False
 	i=0
 	if mode =='append':
@@ -168,8 +164,8 @@ def makeCouples(mode):
 	f.close()
 	return couple_list
 
-def giveGifts():
-	couple_list = makeCouples('new')
+def giveGifts(boy_list,girl_list):
+	couple_list = makeCouples('new',boy_list,girl_list)
 	gift_list = generateGiftList()
 	for c in couple_list:
 		totalCost=0
@@ -226,6 +222,7 @@ def giveGifts():
 				else:
 					continue
 		c.happiness = c.boy.getHappiness(c.girl,totalCost) + c.girl.getHappiness(c.boy,totalValue,totalValue)
+		return couple_list
 		#print 'happiness of the couple ' + c.boy.name + ' and ' + c.girl.name + ' is ' + str(c.happiness) +'\n'
 
 
@@ -233,7 +230,7 @@ def giveGifts():
 
 
 
-giveGifts()
+# giveGifts()
 # makeCouples('new')
 def k_most_happy_couples(couple_list,k):	
 	couple_list.sort(key = lambda x: x.happiness, reverse = True)
@@ -243,6 +240,5 @@ def k_most_happy_couples(couple_list,k):
 		print c.boy.name + ' is in relationship with ' + c.girl.name + ' with happiness: ' + str(c.happiness)
 		if i==k:
 			break
-k_most_happy_couples(couple_list, 20)
 
 
