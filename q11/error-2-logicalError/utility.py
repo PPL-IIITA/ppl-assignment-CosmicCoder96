@@ -6,9 +6,15 @@ from couple import Couple
 from gift import utilityGift, luxuryGift, essentialGift
 from random import randint
 
+'''
+function to generate random names
+'''
 def randomName(size=6, chars=string.ascii_uppercase):
     return ''.join(random.choice(chars) for _ in range(size))
 
+'''
+function to generate list of boys
+'''
 
 def generateBoyList():
     boyList=[]
@@ -34,7 +40,9 @@ def generateBoyList():
     return boyList
 
 
-
+'''
+function to generate list of girls
+'''
 
 def generateGirlList():
     girlList=[]
@@ -68,6 +76,11 @@ def generateGirlList():
         f.write(name+ ' ' +str(attractiveness)+ ' ' +str(maintainance_budget)+ ' ' +str(intelligence_level)+ ' ' +str(criterion)+ ' ' +' ' +str(committed)+ ' ' +str(happiness) +'\n')
     return girlList
 
+'''
+function to generate list of gifts
+'''
+
+
 def generateGiftList():
     gift_list = []
     f = open('gift-list.txt','w')
@@ -98,7 +111,10 @@ def generateGiftList():
     return gift_list
 
 
-# couple_list = []
+'''
+Function responsible for making of couples
+'''
+
 
 def makeCouples(mode,boy_list,girl_list):
 
@@ -139,6 +155,11 @@ def makeCouples(mode,boy_list,girl_list):
 
     f.close()
     return couple_list
+
+'''
+Function responsible for exchanging the generated gifts
+'''
+
 
 def giveGifts(boy_list,girl_list):
     couple_list = makeCouples('new',boy_list,girl_list)
@@ -195,17 +216,20 @@ def giveGifts(boy_list,girl_list):
         c.happiness = c.boy.getHappiness(c.girl,totalCost) + c.girl.getHappiness(c.boy,totalValue,totalValue)
     return couple_list
 
+'''
+function to find out the k most happy couples
+'''
 
 
-
-
-
-# giveGifts()
 def k_most_happy_couples(couple_list):	
     couple_list.sort(key = lambda x: x.happiness, reverse = True)
     for c in couple_list:
         print c.boy.name + ' ' +str(c.happiness)
 # k_most_happy_couples(couple_list)
+
+'''
+function to find out the k least happy couples
+'''
 
 def k_least_happy_couples(couple_list):
     couple_list.sort(key = lambda x: x.happiness, reverse = False)
