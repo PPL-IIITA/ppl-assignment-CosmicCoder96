@@ -104,6 +104,22 @@ cd q10
 python q10.py
 ```
 >The generated couples will be stored in couple-list.txt
+
+### Question 11
+>First navigate to the directory q11
+```
+cd q11
+```
+>Then navigate to any of the  sub-directory of q11 (for eg)
+```
+cd error-1-typeError
+```
+
+>Then run question
+```
+python q11.py
+```
+>The generated couples will be stored in couple-list.txt
   
 ## Documentation details
 ###General text files (Get recreated when the questions are run)
