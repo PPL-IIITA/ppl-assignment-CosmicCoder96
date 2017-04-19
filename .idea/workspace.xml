@@ -2,10 +2,155 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c516f853-68be-4dcf-9fcb-e2b751a6e8bc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/q9/Screen Shot 2017-04-10 at 10.49.42 AM.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-1-typeError/Documentation/Documentation.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-2-logicalError/Documentation/api.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-2-logicalError/class diagram.textClipping" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-3-nameError/Documentation/Documentation.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/a.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-1-typeError/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-1-typeError/boy.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-1-typeError/boys-list.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-1-typeError/couple-list.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-1-typeError/couple.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-1-typeError/gift-list.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-1-typeError/gift.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-1-typeError/girl.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-1-typeError/girls-list.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-1-typeError/q3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-1-typeError/utility.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-2-logicalError/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-2-logicalError/boy.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-2-logicalError/boys-list.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-2-logicalError/couple-list.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-2-logicalError/couple.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-2-logicalError/gift-list.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-2-logicalError/gift.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-2-logicalError/girl.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-2-logicalError/girls-list.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-2-logicalError/q11.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-2-logicalError/utility.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-3-nameError/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-3-nameError/boy.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-3-nameError/boys-list.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-3-nameError/couple-list.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-3-nameError/couple.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-3-nameError/gift-list.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-3-nameError/gift.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-3-nameError/girl.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-3-nameError/girls-list.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-3-nameError/q11.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q11/error-3-nameError/utility.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Class Diagram.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q10/Documentation/api.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q10/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q10/boy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q10/boys-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q10/class Diagram.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q10/couple-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q10/couple.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q10/gift-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q10/gift.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q10/girl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q10/girls-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q10/q10.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q10/utility.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q3/Documentation/Documentation.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q3/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q3/boy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q3/boys-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q3/couple-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q3/couple.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q3/gift-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q3/gift.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q3/girl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q3/girls-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q3/q3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q3/utility.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q4/Documentation/api.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q4/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q4/boy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q4/boys-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q4/class diagram.textClipping" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q4/couple-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q4/couple.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q4/gift-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q4/gift.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q4/girl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q4/girls-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q4/q4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q4/utility.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q5/Class Diagram.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q5/Documentation/api.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q5/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q5/boy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q5/boys-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q5/couple-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q5/couple.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q5/gift-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q5/gift.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q5/girl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q5/girls-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q5/q5.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q5/utility.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q6/Documentation/api.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q6/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q6/boy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q6/boys-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q6/class diagram.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q6/class diagram.textClipping" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q6/couple-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q6/couple.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q6/gift-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q6/gift.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q6/girl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q6/girls-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q6/q4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q6/q6.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q6/utility.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q7/Documentation/api.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q7/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q7/boy-list-temp.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q7/boy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q7/boys-list-temp.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q7/boys-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q7/class Diagram.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q7/couple-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q7/couple.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q7/gift-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q7/gift.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q7/girl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q7/girls-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q7/q7.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q7/utility.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q8/Documentation/api.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q8/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q8/boy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q8/boys-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q8/class diagram.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q8/couple-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q8/couple.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q8/gift-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q8/gift.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q8/girl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q8/girls-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q8/q8.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q8/utility.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q9/Class Diagram.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q9/Documentation/api.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q9/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q9/boy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q9/boys-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q9/couple-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q9/couple.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q9/gift-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q9/gift.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q9/girl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q9/girls-list.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q9/q9.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/q9/utility.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q5/boy.py" afterPath="$PROJECT_DIR$/q5/boy.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q5/girl.py" afterPath="$PROJECT_DIR$/q5/girl.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,9 +164,9 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/q3/__init__.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="a.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/q11/a.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -30,72 +175,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/q7/__init__.py">
+      <file leaf-file-name="utility.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/q11/error-3-nameError/utility.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/q10/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/q6/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/q5/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/q4/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/q9/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/q8/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="600">
+              <caret line="48" column="36" lean-forward="false" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,6 +191,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Q11/q3.py" />
+        <option value="$PROJECT_DIR$/Q11/utility.py" />
+        <option value="$PROJECT_DIR$/q4/q4.py" />
+        <option value="$PROJECT_DIR$/q11/error-2-typeError/q4.py" />
+        <option value="$PROJECT_DIR$/q11/error-2-typeError/utility.py" />
+        <option value="$PROJECT_DIR$/q11/error-3-nameError/utility.py" />
+        <option value="$PROJECT_DIR$/q10/utility.py" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -139,62 +239,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ppl-assignment-CosmicCoder96" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ppl-assignment-CosmicCoder96" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ppl-assignment-CosmicCoder96" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="q7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ppl-assignment-CosmicCoder96" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ppl-assignment-CosmicCoder96" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="q6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ppl-assignment-CosmicCoder96" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ppl-assignment-CosmicCoder96" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="q5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ppl-assignment-CosmicCoder96" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ppl-assignment-CosmicCoder96" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="q10" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -302,6 +346,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -437,26 +487,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,6 +520,70 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/q3/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q7/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q10/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q6/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q5/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q4/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q9/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q8/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="uml://Python/#/Users/abhinav/Documents/Study/PPL/ppl-assignment-CosmicCoder96/q3/utility.py">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -481,6 +595,7 @@
           <settings layout="Hierarchic Group" zoom="1.0" x="630.0" y="-1866.0" />
           <SelectedNodes />
           <Categories />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -545,6 +660,120 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q10/boy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q10/q10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q11/utility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="215" column="0" lean-forward="true" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q11/q3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q11/error-2-typeError/q3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q4/utility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q11/error-2-typeError/utility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="231" column="22" lean-forward="false" selection-start-line="231" selection-start-column="22" selection-end-line="231" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q11/error-2-typeError/q4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q4/q4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q6/q6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q11/error-3-nameError/q3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q11/a.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q10/utility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1410">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q11/error-3-nameError/utility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="48" column="36" lean-forward="false" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
